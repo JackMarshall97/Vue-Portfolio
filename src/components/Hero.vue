@@ -4,13 +4,12 @@
 </script>
 
 <template>
-    <div class="h-[calc(100vh-50px)] md:py-8">
+    <div class="h-[calc(100vh-50px)] container-fill md:py-8">
         <div 
-            class="h-full w-full md:w-4/5 xl:w-3/4
-                flex flex-col md:flex-row md:mx-auto 
-                border rounded-3xl border-gray-700 md:p-2"
+            class="h-full flex flex-col md:flex-row md:mx-auto 
+                    border rounded-3xl border-gray-700 md:p-2"
         >
-            <div class="flex flex-col md:basis-1/2 justify-center text-white text-left p-8">
+            <div class="flex flex-col md:basis-3/5 justify-center text-white text-left p-8">
                 <h1 class="uppercase">Jack Marshall</h1>
                 <div class="flex gap-8 mb-6">
                     <div class="text-xl">
@@ -28,7 +27,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo nec sapien tincidLorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
             </div>
-            <div class="relative md:basis-1/2 aspect-square">
+            <div class="relative md:basis-2/5 aspect-square">
                 <div class="absolute inset-0 bg-black/20 md:rounded-r-3xl"></div>
                 <img :src="hero" class="w-full h-full object-cover md:rounded-r-3xl" alt="A picture of Jack Marshall" />
             </div>

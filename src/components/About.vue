@@ -2,12 +2,12 @@
 </script>
 
 <template>
-    <div class="border-t border-gray-700">
+    <div class="border-b border-gray-700">
         <h1>About</h1>
 
 
         <div class="flex flex-col align-start justify-start">
-            <h2>Education</h2><hr/>
+            <h2>Education</h2>
             <div>
                 <p>Bachelor in Information Technology</p>
                 <p>Federation University Australia</p>
