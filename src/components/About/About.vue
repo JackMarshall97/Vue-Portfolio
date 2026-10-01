@@ -6,11 +6,11 @@ import ExperienceItem from './ExperienceItem.vue';
 
 <template>
     <div class="container border-b border-gray-700">
-        <h1>About</h1>
-
+        <h1 class="heading">About</h1>
+        <p>Learn more about my background and experience.</p>
         <div>
-            <h2>Education</h2><hr class="mb-4">
-            <div class="flex gap-4">
+            <h2 class="subheading">Education</h2>
+            <div class="mt-4 flex flex-col md:flex-row gap-4">
                 <EducationItem 
                     v-for="item in education"
                     v-bind="item"
@@ -19,7 +19,7 @@ import ExperienceItem from './ExperienceItem.vue';
         </div>
 
         <div>
-            <h2>Experience</h2><hr class="mb-4">
+            <h2 class="subheading">Experience</h2>
             <div class="flex gap-6">
                 <ExperienceItem 
                     v-for="item in experience"

@@ -28,7 +28,7 @@ export const education: Education[] = [
 
 export const experience: Experience[] = [
     {
-        role: "Web Developer & IT Specialist",
+        role: "Web Developer",
         company: "Skin Ski + Surf",
         period: "2024-Current"
     },
