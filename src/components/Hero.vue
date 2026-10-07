@@ -5,11 +5,9 @@
 
 <template>
     <div class="h-[calc(100vh-50px)] container-fill md:py-8">
-        <div 
-            class="h-full flex flex-col md:flex-row md:mx-auto 
-                    border rounded-3xl border-gray-700 md:p-2"
-        >
-            <div class="flex flex-col md:basis-3/5 justify-center text-white text-left p-8">
+        <div class="h-full flex flex-col md:flex-row md:mx-auto md:p-2 border border-gray-700 rounded-3xl">
+            <div class="flex flex-col md:basis-3/5 justify-center text-white text-left p-8"
+            >
                 <h1 class="uppercase">Jack Marshall</h1>
                 <div class="flex gap-8 mb-6">
                     <div class="text-xl">
@@ -21,11 +19,11 @@
                         <span>Northern Rivers, NSW</span>
                     </div>
                 </div>
-                <hr class="text-gray-700"><br>
+                <!--<hr class="text-gray-700"><br>
                 <p class="text-2xl font-bold pb-2">Welcome to my personal website!</p>
                 <p class="text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo nec sapien tincidLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                </p>-->
             </div>
             <div class="relative md:basis-2/5 aspect-square">
                 <div class="absolute inset-0 bg-black/20 md:rounded-r-3xl"></div>
