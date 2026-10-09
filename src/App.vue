@@ -4,7 +4,6 @@ import Hero from './components/Hero.vue';
 import About from './components/About/About.vue';
 import Skills from './components/Skills/Skills.vue';
 import Footer from './components/Footer.vue';
-import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
@@ -13,5 +12,4 @@ import HelloWorld from './components/HelloWorld.vue';
   <About />
   <Skills />
   <Footer />
-  <HelloWorld />
 </template>
