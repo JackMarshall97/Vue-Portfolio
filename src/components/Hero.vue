@@ -4,31 +4,24 @@
 </script>
 
 <template>
-    <div class="h-[calc(100vh-50px)] container-fill md:py-8">
-        <div class="h-full flex flex-col md:flex-row md:mx-auto md:p-2 border border-gray-700 rounded-3xl">
-            <div class="flex flex-col md:basis-3/5 justify-center text-white text-left p-8"
-            >
-                <h1 class="uppercase">Jack Marshall</h1>
-                <div class="flex gap-8 mb-6">
-                    <div class="text-xl">
-                        <FontAwesomeIcon :icon="faBriefcase" class="text-blue-400 mr-2"/> 
-                        <span>Web Developer</span>
-                    </div>
-                    <div class="text-xl">
-                        <FontAwesomeIcon :icon="faLocationDot" class="text-red-400 mr-2"/> 
-                        <span>Northern Rivers, NSW</span>
-                    </div>
+    <div class="h-[calc(100vh-50px)] relative overflow-hidden text-white">
+        
+        <img :src="hero" class="w-full h-full object-cover" alt="A picture of Jack Marshall" />
+        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="md:absolute md:top-2/3 md:left-[50px]">
+            <h1 class="">Jack Marshall</h1>
+            <div class="flex gap-4">
+                <div class="text-xl">
+                    <FontAwesomeIcon :icon="faBriefcase" class="text-blue-400 mr-2"/> 
+                    <span>Web Developer</span>
                 </div>
-                <!--<hr class="text-gray-700"><br>
-                <p class="text-2xl font-bold pb-2">Welcome to my personal website!</p>
-                <p class="text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo nec sapien tincidLorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>-->
-            </div>
-            <div class="relative md:basis-2/5 aspect-square">
-                <div class="absolute inset-0 bg-black/20 md:rounded-r-3xl"></div>
-                <img :src="hero" class="w-full h-full object-cover md:rounded-r-3xl" alt="A picture of Jack Marshall" />
+                <div class="text-xl">
+                    <FontAwesomeIcon :icon="faLocationDot" class="text-red-400 mr-2"/> 
+                    <span>Northern Rivers, NSW</span>
+                </div>
             </div>
         </div>
+            
+
     </div>
 </template>
