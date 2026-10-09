@@ -7,8 +7,8 @@ defineProps<{
 </script>
 
 <template>
-    <div class="flex-1 border border-1 border-gray-500 text-white text-left p-8 mb-4">
-        <h2>{{ role }}</h2>
+    <div class="flex-1 border border-1 border-gray-500 text-black text-left p-8 mb-4">
+        <h3>{{ role }}</h3>
         <p>{{ company }}</p>
         <p>{{ period }}</p>
     </div>
